@@ -1,0 +1,326 @@
+﻿@charset "utf-8";
+/*============================================
+Name: reset.css
+Shortdesc: Stylesheet for layout
+Released: on Sep 23th
+Created: on Sep 23th
+Version: 0.1
+Author: Mizuki Kadosaki
+=============================================*/
+
+/*============================================
+Use 81.25% method!! 1em=13px
+=============================================*/
+
+
+/*=body
+=============================================*/
+body{
+	text-align:left;
+	margin:0 auto;
+	width:90%;
+	min-width:800px;
+	position:relative;
+	}
+
+/*
+=content
+=siteinfo
+=============================================*/
+#content,
+#siteinfo{
+	overflow:hidden;
+	position:relative;
+	}
+#siteinfo{
+	padding:1em 2em;
+	}
+
+
+/*=branding
+=============================================*/
+#branding{
+	overflow:hidden;
+	}
+#branding a{
+	display:block;
+	width:370px;
+	height:67px;
+	text-align:left;
+	text-indent:-9999px;
+	}
+
+
+/*=bread-crumb#bread-crumb li:first-child {}
+=============================================*/
+#bread-crumb{
+	padding:2px 24px 0 26px;
+	overflow:hidden;
+	}
+#bread-crumb li{
+	float:left;
+	padding:8px 12px 12px 3px;
+	}
+
+
+/*=access-navigation
+=============================================*/
+#access-navigation {
+	height:0;
+	overflow:hidden;
+	position:absolute;
+	}
+
+
+/*
+=nav-main
+=nav-section
+=============================================*/
+#nav-main{
+	width:24%;
+	float:left;
+	padding:14px 28px;
+	}
+#nav-main li{
+	padding:4px 0 4px 14px;
+	}
+ul#nav-section{
+	overflow:hidden;
+	position: relative;
+	padding:0 30px;
+	}
+#nav-section li{
+	padding:12px 0;
+	height:18px;
+	display:inline-block;
+	width:21%;
+	float:left;
+	}
+#nav-section li#byoki {
+	width:14%;
+	}
+#nav-section li#ishi {
+	width:23%;
+	}
+#nav-section a{
+	display:block;
+	margin:0 auto;
+	height:14px;
+	}
+#nav-section #byoki a{
+	width:92px;
+	margin:0;
+	}
+#nav-section #shojo a{
+	width:128px;
+	}
+#nav-section #kyukyu a{
+	width:140px;
+	}
+#nav-section #seikatsu a{
+	width:146px;
+	}
+#nav-section #ishi a{
+	width:159px;
+	float:right;
+	}
+
+
+
+
+/*
+=content-main
+=============================================*/
+#content-main{
+	width:67%;
+	margin-top:-24px;
+	padding:14px 0 14px 14px;
+	float:right;
+	position:relative;
+	overflow:hidden;
+	}
+
+#index #content-main{
+	width:100%;
+	margin:0;
+	padding:14px 0;
+	float:none;
+	overflow:hidden;
+	}
+
+#index h2{margin:0 0 10px 0;}
+
+/*=topimage
+=============================================*/
+#topimage img{
+	display:block;
+	float:left;
+	padding-bottom:14px;
+	}
+#toptext{
+	margin-left:420px;
+	}
+
+
+/*
+=totop
+=============================================*/
+
+
+/*=heading
+=============================================*/
+h1,h2,h3,h4{
+	margin:24px 0 6px 0;
+	padding:0.4em 1.2em 0.1em 1.2em;
+	}
+h4{
+	padding-left:0;
+	}
+h5,h6,
+.h7,.h8,.h9,.h10,.h11{
+	margin:1.6em 0 0.4em 0;
+	padding:0.4em 0 0.4em 1.4em;
+	}
+h6{
+	padding-left:0;
+	}
+.h9,.h10,.h11{
+	padding:0.3em 0 0.2em 1.4em;
+	}
+body#index h1{
+	margin:0;
+	padding:0;
+	}
+
+h1 span,h2 span,h3 span,h4 span,h5 span,h6 span,
+.h7 span,.h8 span,.h9 span,.h10 span,.h11 span{
+	display:block;
+	}
+
+#sectionimage{
+	text-align:center;
+	}
+
+/*
+=ul
+=ol
+=============================================*/
+
+
+/*=search
+=============================================*/
+#search{
+	position:absolute;
+	top:26px;
+	right:30px;
+	width:129px;
+	}
+#search li a{
+	display:block;
+	height:26px;
+	overflow:hidden;
+	}
+#nav-main #searchform ol li{
+	border:0;
+	padding:0;
+	}
+#searchform input#textform{
+	width:96%;
+	padding:0.1em;
+	}
+#searchform input#submit{
+	padding:0.2em;
+	}
+
+div#res dl{
+	padding:0.8em 0;
+	}
+div#res p#res_p{
+	text-align:right;
+	}
+
+
+
+/*=pager
+=============================================*/
+#pager{
+	text-align:center;
+	}
+#pager li,
+#pager li ol,
+#pager li ol li{
+	display:inline;
+	}
+
+
+
+/*=kyakuchu
+=============================================*/
+body#kyakuchu{
+	margin:0;
+	width:70%;
+	min-width:610px;
+	}
+#kyakuchu #header #branding{
+	padding-top:1em;
+	padding-bottom:1em;
+	}
+#kyakuchu #content-main{
+	width:100%;
+	overflow:hidden;
+	}
+#kyakuchu #content-main p#close{
+	text-align:center;
+	}
+#kyakuchu #image{
+	text-align:center;
+	}
+
+
+/*=searchpage
+=============================================*/
+#searchpage #nav-main form li{
+	padding:0;
+	}
+#searchpage #nav-main #searchword input{
+	width:95%;
+	padding:4px;
+	}
+#searchpage #nav-main #submitbutton input{
+	display:block;
+	width:68px;
+	height:26px;
+	margin:10px auto;
+	}
+#searchpage dl{
+	margin-bottom:1.4em;
+	}
+#content-g{
+	position:relative; 
+	top:3em;
+	z-index:10;
+	padding-bottom:3em;
+	}
+#resultstats{
+	position:absolute;
+	top:6.2em;
+	z-index:20;
+	}
+
+/*=siteinfopage
+=============================================*/
+#siteinfopage #content-main ul li li{
+	margin-left:1em;
+	padding-left:1em;
+	}
+#siteinfopage #content-main ol li{
+	margin-left:2em;
+	text-indent:-2em;
+	}
+
+/*=popup
+=============================================*/
+body#dialog_body{
+	min-width:620px;
+	}
+#image{margin-top:6px;padding:5px;}

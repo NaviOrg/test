@@ -1,0 +1,303 @@
+﻿@charset "utf-8";
+/*============================================
+Name: color.css
+Shortdesc: Stylesheet for color
+Released: on Sep 23th
+Created: on May 20th
+Version: 0.1
+Author: Mizuki Kadosaki
+=============================================*/
+
+
+/*=html
+=============================================*/
+html{
+	color:rgb(55, 55, 55);
+	background:rgb(255, 255, 255) url(../img/bk01.gif) repeat-x scroll 0 0;
+	}
+
+
+/*=body
+=============================================*/
+body	{
+	background:url(../img/hd_bk01.jpg) repeat-x scroll 0 0;
+	}
+
+
+/*=link
+=============================================*/
+a:link		{color:rgb(34, 68, 85);}
+a:visited	{color:rgb(34, 68, 85);}
+a:focus	{color:rgb(102, 204, 51);}
+a:hover	{color:rgb(255, 255, 255); background-color:rgb(255, 153, 0);}
+a:active	{color:rgb(255, 102, 51);}
+
+
+/*
+=header
+=siteinfo
+=============================================*/
+#header{
+	background:url(../img/hd_bk01.jpg) repeat-x 0 0;
+	}
+#siteinfo{
+	background:url(../img/bk_siteinfo.gif) repeat-x 0 0 rgb(255, 34, 25);
+	color:rgb(255, 255, 255);
+	}
+
+#siteinfo a{
+	color:rgb(255, 255, 255);
+	}
+
+
+/*=bread-crumb
+=============================================*/
+#bread-crumb{
+	background-color:rgb(235, 235, 235);
+	border-bottom:1px solid rgb(188,188,188);
+	zoom:1/*IE6*/;
+	}
+#bread-crumb li{
+	background:url(../img/hd_navi_arw01.gif) no-repeat right center;
+	}
+#bread-crumb a{
+	color:rgb(48, 11, 10);
+	}
+#bread-crumb li:last-child {
+	background:none;
+	}
+
+
+/*=branding
+=============================================*/
+#branding a{
+	background:url(../img/hd_bk02.jpg) no-repeat 0 0;
+	}
+#branding a:hover{
+	background:url(../img/hd_bk02.jpg) no-repeat 0 -67px;
+	}
+
+
+/*
+=content
+=============================================*/
+
+
+
+/*
+=content-main
+	-moz-border-radius-topleft:12px;
+	-moz-border-radius-topright:12px;
+	-moz-border-radius-bottomleft:12px;
+	-moz-border-radius-bottomright:12px;
+=============================================*/
+
+
+/*=heading
+=============================================*/
+h1,h2,h3,h4,h5,h6,
+.h7,.h8{background:rgb(138, 127, 120);}
+#index h1{background:transparent none repeat scroll 0 0;}
+h1{
+	background:url(../img/h1_bk.gif) 0 0;
+	color:rgb(255, 255, 255);
+	}
+h2{
+	background:url(../img/h2_bk.gif) repeat-x 0 0;
+	color:rgb(84, 64, 55);
+	border:1px solid rgb(153, 153, 153);
+	}
+h3{
+	background:url(../img/h3_bk.gif) no-repeat left bottom;
+	border-bottom:1px solid rgb(153, 153, 153);
+	}
+h4{
+	background:url(../img/h4_bk.gif) no-repeat left top;
+	border-top:1px solid rgb(153, 153, 153);
+	}
+h5{
+	background:url(../img/h5_bk.gif) no-repeat left bottom;
+	}
+h6{
+	background:url(../img/h6_bk.gif) repeat-x left bottom;
+	}
+.h7{
+	background:url(../img/h7_bk.gif) no-repeat 0.4em 0.8em rgb(255, 242, 233);
+	}
+.h8{
+	background:url(../img/h8_bk.gif) no-repeat 0.45em 0.8em rgb(240, 240, 240);
+	border-bottom:1px solid rgb(153, 153, 153);
+	}
+.h9{
+	background:url(../img/h9_bk.gif) no-repeat 0.45em 0.75em;
+	border-bottom:1px dotted rgb(153, 153, 153);
+	}
+.h10{
+	background:url(../img/h10_bk.gif) no-repeat 0.45em 0.5em;
+	border:1px solid rgb(180, 180, 180);
+	}
+.h11{
+	background:url(../img/h11_bk.gif) no-repeat 0 0.5em;
+	}
+
+
+/*=p
+=============================================*/
+
+
+/*
+=ul
+=ol
+=============================================*/
+div#content-question ol li ol	{
+	background:url(../img/vertline.gif) repeat-y left top;
+	}
+div#content-question ol li ol li	{
+	background:url(../img/node.gif) no-repeat 0 0.6em;
+	}
+div#content-question ol li ol li.lastnode	{
+	background:url(../img/lastnode.gif) no-repeat 0 0.6em;
+	}
+
+#nav-main{
+	background:rgb(255, 243, 232);
+	}
+#nav-main li{
+	background:url(../img/point_01.gif) no-repeat 0 0.7em rgb(255, 255, 255);
+	border-bottom:1px dotted rgb(103, 103, 103);
+	}
+#nav-main li:first-child{
+	border-top:1px dotted rgb(103, 103, 103);
+	}
+#nav-main li li{
+	background:url(../img/point_02.gif) no-repeat 0.1em 0.7em;
+	border:0;
+	}
+#nav-main li li li{
+	background:url(../img/point_03.gif) no-repeat 0.2em 0.8em /*rgb(255, 230, 206)*/;
+	border:0;
+	}
+#nav-main li li li li{
+	background:url(../img/point_04.gif) no-repeat 0.1em 0.7em /*rgb(255, 218, 176)*/;
+	border:0;
+	}
+#nav-main li li li li li{
+	background:url(../img/point_04.gif) no-repeat 0.1em 0.7em /*rgb(255, 206, 156)*/;
+	border:0;
+	}
+	
+
+/*
+=nav
+==============================================*/
+#nav-section{
+	background:rgb(255,255,255) url(../img/hd_navi_bk02_of.gif) repeat-x left bottom;
+	text-indent:-9999px;
+	}
+#nav-section #byoki a:hover,
+#nav-section #shojo a:hover,
+#nav-section #kyukyu a:hover,
+#nav-section #seikatsu a:hover,
+#nav-section #ishi a:hover{
+	background-position:0 -14px;
+	}
+#nav-section #byoki a{
+	background:url(../img/hd_navi_b01.gif) no-repeat 0 0;
+	}
+#nav-section #shojo a{
+	background:url(../img/hd_navi_b02.gif) no-repeat 0 0;
+	}
+#nav-section #kyukyu a{
+	background:url(../img/hd_navi_b03.gif) no-repeat 0 0;
+	}
+#nav-section #seikatsu a{
+	background:url(../img/hd_navi_b04.gif) no-repeat 0 0;
+	}
+#nav-section #ishi a{
+	background:url(../img/hd_navi_b05.gif) no-repeat 0 0;
+	}
+
+
+
+/*=topimage
+=============================================*/
+#topimage{
+	background:rgb(255,255,255);
+	}
+
+
+/*=search
+=============================================*/
+#search li a{
+	background:url(../img/kw_bottom01.gif) no-repeat 0 0;
+	text-indent:-9999px;
+	}
+#search li a:hover{
+	background:url(../img/kw_bottom01.gif) no-repeat 0 -26px;
+	}
+#nav-main #searchform ol li{
+	background:none;
+	}
+#searchform #textform{
+	background:rgb(255, 255, 255);
+	border:2px inset threedface;
+	}
+#searchform #submit{
+	background:rgb(188, 188, 188);
+	border:1px solid rgb(150, 150, 150);
+	}
+
+div#res dl{
+	border-bottom:1px dotted rgb(150, 150, 150);
+	}
+div#res p#res_p{
+	border-bottom:1px dotted rgb(150, 150, 150);
+	}
+
+
+
+/*=searchpage
+=============================================*/
+#searchpage #nav-main form li{
+	background:transparent;
+	border:0;
+	}
+#searchpage #nav-main #searchword input{
+	background:rgb(255, 255, 255);
+	border:1px inset rgb(188, 188, 188);
+	}
+#searchpage #nav-main #submitbutton input{
+	background:url(../img/seach_bottom01.gif) no-repeat 0 0;
+	text-indent:-9999px;
+	font-size: 0px;
+	line-height: 0px;
+	cursor:pointer;
+	}
+#submitbutton input:hover,
+#searchpage #nav-main #submitbutton input:focus {
+	background-position:left -26px;
+	}
+
+
+
+/*=siteinfopage
+=============================================*/
+#siteinfopage #content-main li li{
+	background:url(../img/point_03.gif) no-repeat 0 0.6em /*rgb(255, 218, 176)*/;
+	border:0;
+	}
+
+
+	
+/*=class
+=============================================*/
+.openwindow {color:rgb(165, 131, 132);}
+.openwindow a{color:#7777CC;}
+div.column{}
+div.column h3{}
+div.column p{}
+
+#nav-main li.column_t{
+	background: rgb(255, 255, 255) url(../img/point_cm.gif) no-repeat scroll 0.1em 0.8em;
+	}
+

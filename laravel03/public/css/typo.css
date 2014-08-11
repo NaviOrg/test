@@ -1,0 +1,111 @@
+﻿@charset "utf-8";
+/*============================================
+Name: typo.css
+Shortdesc: Stylesheet for typo
+Released: on Jun 3th
+Created: on May 20th
+Version: 0.1
+Author: Mizuki Kadosaki
+=============================================*/
+/*============================================
+Use 81.25% method!! 1em=13px←
+Use 87.5 % method!! 1em=14px
+=============================================*/
+
+ruby,rb,rt{ruby-position:inline;}
+
+/*=html
+=============================================*/
+html{
+	font-family: Meiryo, "メイリオ", Arial, Helvetica,"Hiragino kaku Gothic Pro","ヒラギノ角ゴ Pro W3",Osaka,"ＭＳ Ｐゴシック","MS P Gothic","MS ゴシック",sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	}
+
+
+/*=body
+=============================================*/
+*:first-child+html body { 
+	font-family: 'メイリオ', Meiryo, sans-serif;
+	}
+
+/*=bread-crumb
+=============================================*/
+
+
+/*=heading
+=============================================*/
+body#index h1{font-size:1em;}
+h1,h2,h3,h4{font-size:1.4em;}
+h5,h6,
+.h7,.h8,.h9,.h10,.h11,.h12,.h13{font-size:1.2em;font-weight:bold;}
+
+h1 span,h2 span,h3 span,h4 span,h5 span,h6 span,
+.h7 span,.h8 span,.h9 span,.h10 span,.h11 span{
+	font-size:50%;
+	font-weight:normal;
+	}
+
+
+/*=p
+=============================================*/
+#intro{
+	font-size:1.2em;
+	}
+
+
+/*=em
+=============================================*/
+em.amp {
+	font-family:"Hoefler Text","Book Antiqua",serif;
+	font-style:italic;
+	font-weight:normal;
+}
+
+em{
+	font-weight:bold;
+	font-style:normal;
+	}
+
+
+/*=table
+=============================================*/
+caption{
+	font-size:1.4em;
+	}
+
+
+/*=dl
+=============================================*/
+dt{
+	font-weight:bold;
+	}
+
+div#content-siteinfo ol{
+	list-style-type:circle;
+	}
+
+div#content-siteinfo ol li ol{
+	list-style-type:decimal;
+	}
+
+
+
+/*=form
+=============================================*/
+#searchform{
+	font-size:130%;
+	}
+#searchform #submit{
+	font-size:77%;
+	}
+
+/*=class
+=============================================*/
+.tel{
+	font-weight:bold;
+	font-size:2em;
+	}
+.active{font-weight:bold;}
+.openwindow {font-size:0.8em;}
+.english{font-style: italic;}

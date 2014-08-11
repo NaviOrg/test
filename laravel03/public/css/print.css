@@ -1,0 +1,210 @@
+﻿@charset "utf-8";
+/*============================================
+Name: reset.css
+Shortdesc: Stylesheet for print
+Released: on Jun 3th
+Created: on Jun 1th
+Version: 0.1
+Author: Mizuki Kadosaki
+=============================================*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;vertical-align: baseline;background: transparent;}
+
+body {line-height: 1.5;}
+ol, ul {list-style: none;}
+
+table {border-collapse: collapse;border-spacing: 0;text-align:right; margin-left:1px;}
+
+@page{
+	size:auto;
+	margin:10%;
+	marks:crop cross;
+	}
+
+#toppage #nav{
+	display:block;
+	}
+
+#access-navigation,
+#bread-crumb,
+#nav{
+	display:none;
+	}
+
+#nav-external{
+	margin-bottom:2em;
+	}
+
+#content p{
+	margin-bottom:1em;
+	}
+
+#siteinfo{
+	margin-top:2em;
+	}
+
+
+ol#footnote {
+	background:#E3F6D9 none repeat scroll 0 0;
+	}
+
+ol#footnote {
+	margin-bottom:1em;
+	padding:0.6em 1em;
+	}
+
+
+/*=costpage only
+=============================================*/
+
+#costpage form{
+	margin-top:1em;
+	padding:0.6em 1em;
+	background:rgb(227, 246, 217);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	}
+#costpage ul li ul li{
+	margin-left:3em;
+	}
+#costpage dl{
+	margin-bottom:0.6em;
+	}
+
+#costpage #result span{
+	margin-right:0.14em;
+	padding:0 0.14em;
+	border:1px solid rgb(100,100,100);
+	background:rgb(227, 246, 217);
+	}
+
+#costpage #result em span{
+	background:rgb(255, 204, 0);
+	}
+
+
+/*=contactpage only
+=============================================*/
+#contactarea{
+	padding:0.6em 1em;
+	background:rgb(227, 246, 217);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	}
+
+#contactpage dt{font-weight:bold;}
+#contactarea li{margin:1em 0;}
+
+
+/*=.tel
+=============================================*/
+.tel{
+	font-weight:bold;
+	font-size:2em;
+	color:rgb(75, 150, 37);
+	}
+
+
+/*=heading
+=============================================*/
+h1{margin-bottom:0.4em;}
+h2{
+	color:rgb(102, 204, 51);
+	border-top:1px dotted #D8D8D8;
+	padding-top:1em;
+	margin:1.6em 0 0.2em 0;
+	clear:both;
+	}
+
+
+/*=link
+=============================================*/
+a:link		{color:rgb(255, 102, 51);}
+
+
+/*=table
+=============================================*/
+caption{
+	font-size:1.4em;
+	}
+
+table td,
+table th{
+	padding:0 5px;
+	border:1px solid rgb(75, 150, 37);
+	}
+
+table tfoot th{
+	font-weight:bold;
+	}
+
+table thead th{
+	text-align:center;
+	background-color:rgb(148, 219, 112);
+	}
+
+caption,
+table .tarm,
+table .comment{
+	text-align:left;
+	}
+
+table .tarm{
+	background-color:rgb(255, 242, 192);
+	}
+
+
+/*=#simulate-table01-page only
+=====================================*/
+table thead td,
+table tfoot th{
+	text-align:right;
+	}
+
+table thead td{
+	border:none;
+	background-color:rgb(255, 255, 255);
+	}
+
+#simulate-table01-page table .tarm,
+#simulate-table01-page table .month{
+	width:8%;
+	}
+table .value{
+	width:12%;
+	}
+table tfoot th.result{
+	background-color:rgb(255, 204, 0);
+	}
+table th.cut,
+table td.cut{
+	background-color:rgb(232, 230, 225);
+	background-color:rgba(199, 192, 180, 0.4);
+	}
+table tbody tr.usually{
+	background-color:rgb(199, 192, 180);
+	}
+
+/*=dl
+=============================================*/
+dl{margin-bottom:1em;}
+dt{font-weight:bold;}
+
+
+/*=simulate-figure01-page only
+=============================================*/
+#simulate-figure01-page #content img{
+	margin-top:2em;
+	}
+div.section {
+	padding-left:216px;
+	}
+
+
+/*=div
+=============================================*/
+div.thumbnail	{
+	border:1px solid rgb(180, 180, 180);
+	float:left;
+	width:200px;
+	margin:0.6em 0;
+	}

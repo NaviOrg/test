@@ -1,0 +1,15 @@
+﻿@charset "utf-8";
+/*============================================================
+ @prefix : <http://purl.org/net/ns/doas#> .
+ <> a :CSS Stylesheet;
+ :title "filter.css";
+ :shortdesc "filtering css file of MOSIMO";
+ :created "2009-06-23";
+ :release [:revision "0.5"; :created "2009-06-23"];
+ :author [:name "Mizuki Kadosaki"] .
+==============================================================*/
+
+@import'reset.css';
+@import'layout.css';
+@import'typo.css';
+@import'color.css';
